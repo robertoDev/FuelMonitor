@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:a="http://schemas.android.com/apk/res/android"
+	a:layout_width="fill_parent"
+	a:layout_height="fill_parent"
+	a:padding="5px"
+	a:orientation="vertical"
+    a:background="#fff">
+    <ImageView
+        a:layout_gravity="center_horizontal"
+        a:src="@drawable/title"
+        a:layout_width="fill_parent"
+        a:layout_height="wrap_content"
+     />
+
+
+    <!--  bottoni centrati con dimensione pari al 50% dello spazio disponibile: -->
+    <LinearLayout
+        a:paddingTop="12px"
+        a:layout_height="fill_parent"
+        a:layout_width="fill_parent"
+        >
+        <TextView a:layout_weight="25" a:layout_width="wrap_content" a:layout_height="wrap_content"/>
+
+        <LinearLayout a:layout_weight="50" a:orientation="vertical" a:layout_width="wrap_content" a:layout_height="fill_parent" >
+            <Button
+                a:id="@+id/buttonNew"
+                a:layout_weight="10"
+                a:layout_width="fill_parent"
+                a:layout_height="wrap_content"
+                a:text="@string/mainNew"
+                />
+            <Button
+                a:id="@+id/buttonStat"
+                a:layout_weight="10"
+                a:layout_width="fill_parent"
+                a:layout_height="wrap_content"
+                a:text="@string/mainStat"
+                />
+            <TextView a:layout_weight="70" a:layout_width="wrap_content" a:layout_height="wrap_content"/>
+            <Button
+                a:id="@+id/buttonExit"
+                a:layout_weight="10"
+                a:layout_gravity="bottom"
+                a:layout_width="fill_parent"
+                a:layout_height="wrap_content"
+                a:text="@string/mainQuit"
+                />
+        </LinearLayout>
+        <TextView a:layout_weight="25" a:layout_width="wrap_content" a:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:a="http://schemas.android.com/apk/res/android"
+	a:layout_width="fill_parent"
+	a:layout_height="fill_parent"
+	a:padding="5px"
+	a:orientation="vertical"
+    a:background="#fff"
+    >
+<!--
+    <LinearLayout
+        a:layout_width="fill_parent"
+        a:layout_height="wrap_content"
+        a:background="#ff8"
+        >
+        <TextView
+            a:text="@string/record"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:background="#f8f"
+            />
+        <ImageView
+            a:src="@drawable/icon"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:background="#8ff"
+         />
+    </LinearLayout>
+-->
+
+    <DatePicker
+        a:id="@+id/datePk1"
+        a:padding="20px"
+        a:layout_gravity="center_horizontal"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        />
+    <TableLayout
+        a:layout_width="fill_parent"
+        a:layout_height="wrap_content"
+        a:gravity="center"
+        a:layout_gravity="top|center_horizontal"
+        a:shrinkColumns="0"
+        a:stretchColumns="1"
+        >
+        <TableRow
+            a:layout_width="fill_parent"
+            a:layout_height="wrap_content"
+            >
+            <TextView
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:text="@string/recKm"
+                />
+            <EditText
+                a:id="@+id/txtKm"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:numeric="integer"
+                />
+        </TableRow>
+        <TableRow
+            a:layout_width="fill_parent"
+            a:layout_height="wrap_content"
+            >
+            <TextView
+                a:text="@string/recQty"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                />
+            <EditText
+                a:id="@+id/txtQty"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:numeric="decimal"
+                />
+        </TableRow>
+        <TableRow
+            a:layout_width="fill_parent"
+            a:layout_height="wrap_content"
+            >
+            <TextView
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:text="@string/recPrice"
+                />
+            <EditText
+                a:id="@+id/txtPrice"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:numeric="decimal"
+                />
+        </TableRow>
+    </TableLayout>
+
+
+    <LinearLayout
+        a:paddingBottom="20px"
+        a:gravity="bottom"
+        a:layout_width="wrap_content"
+        a:layout_height="fill_parent">
+        <Button
+            a:id="@+id/buttonSave"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:text="@string/recSave" />
+        <Button
+            a:id="@+id/buttonAbort"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:text="@string/recAbort" />
+    </LinearLayout>
+
+
+</LinearLayout>

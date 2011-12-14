@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- localizzazione per l'activity MainActy-->
+    <string name="mainNew">Rifornimento</string>
+    <string name="mainStat">Statistiche</string>
+    <string name="mainQuit">Chiudi app</string>
+
+    <!-- localizzazione per l'activity RecordActy-->
+    <string name="recTitle">Rifornimento</string>
+    <string name="recKm">Chilometri</string>
+    <string name="recQty">Litri</string>
+    <string name="recPrice">Prezzo</string>
+    <string name="recSave">Salva</string>
+    <string name="recAbort">Annulla</string>
+
+</resources>
