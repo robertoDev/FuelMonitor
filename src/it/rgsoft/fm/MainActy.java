@@ -2,6 +2,7 @@ package it.rgsoft.fm;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.sax.EndElementListener;
 import android.util.Log;
@@ -40,6 +41,7 @@ public class MainActy extends Activity implements View.OnClickListener{
 		radioGroup1.setGravity(Gravity.CENTER);
 		radioGroup1.addView(radio1);
 		radioGroup1.addView(radio2);
+
 
 
 // SALVA
@@ -122,7 +124,7 @@ public class MainActy extends Activity implements View.OnClickListener{
 
 
     private void exit(){
-        message("Bye bye");
+        message(getResources().getString(R.string.byebye));
         finish();
     }
 
