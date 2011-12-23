@@ -12,5 +12,6 @@
     <string name="recPrice">Prezzo</string>
     <string name="recSave">Salva</string>
     <string name="recAbort">Annulla</string>
+    <string name="byebye">Ciao... alla prossima!</string>
 
 </resources>
