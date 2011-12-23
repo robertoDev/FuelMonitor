@@ -13,5 +13,6 @@
     <string name="recSave">Salva</string>
     <string name="recAbort">Annulla</string>
     <string name="byebye">Ciao... alla prossima!</string>
+    <string name="aborted">annullato</string>
 
 </resources>

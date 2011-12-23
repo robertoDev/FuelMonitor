@@ -81,7 +81,7 @@ private DbHelper dbh;
 
 
     private void abort(){
-        message("aborted");
+        message(getResources().getString(R.string.aborted));
         finish();
     }
 

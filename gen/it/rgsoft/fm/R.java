@@ -30,8 +30,10 @@ public final class R {
         public static final int record=0x7f030001;
     }
     public static final class string {
-        public static final int app_name=0x7f040009;
-        public static final int copyright=0x7f04000a;
+        public static final int aborted=0x7f04000a;
+        public static final int app_name=0x7f04000b;
+        public static final int byebye=0x7f040009;
+        public static final int copyright=0x7f04000c;
         /**  localizzazione per l'activity MainActy
          */
         public static final int mainNew=0x7f040000;
