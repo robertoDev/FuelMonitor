@@ -1,6 +1,6 @@
 -- FuelMonitor --
 Tracking and statistics about fuel consumption.
-this app allow to register fuel informations in a db (date, price, quantity, place) and creates reports  from it 
+this app allows to register fuel informations in a db (date, price, quantity, place) and creates reports  from it 
 
 
 This file was created by IntelliJ IDEA 11.0 for binding GitHub repository
